@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 头部导航 -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">我的网站</a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#home" class="nav-link">首页</a></li>
+                    <li><a href="#about" class="nav-link">关于我</a></li>
+                    <li><a href="#portfolio" class="nav-link">作品集</a></li>
+                    <li><a href="#contact" class="nav-link">联系</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主页部分 -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">欢迎来到我的个人网站</h1>
+                <p class="hero-subtitle">这是一个使用HTML、CSS和JavaScript构建的现代化响应式网站，部署在GitHub Pages上。</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">查看作品</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我部分 -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">关于我</h2>
+                <p class="section-subtitle">了解我的技能和经验</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名充满热情的网站开发者，专注于创建美观、功能强大的网站。我喜欢学习新技术，并使用最新的Web标准来构建用户友好的界面。</p>
+                    <p>这个网站是使用纯HTML、CSS和JavaScript构建的，没有使用任何复杂的框架。它完全托管在GitHub Pages上，这是一个免费的静态网站托管服务。</p>
+                    <div class="skills">
+                        <h3>我的技能</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">HTML5</div>
+                            <div class="skill-item">CSS3</div>
+                            <div class="skill-item">JavaScript</div>
+                            <div class="skill-item">响应式设计</div>
+                            <div class="skill-item">Git/GitHub</div>
+                            <div class="skill-item">UI/UX设计</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://picsum.photos/seed/profile/400/400.jpg" alt="个人照片" class="profile-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 作品集部分 -->
+    <section id="portfolio" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">我的作品</h2>
+                <p class="section-subtitle">我最近的项目和作品</p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project1/600/400.jpg" alt="项目1">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>响应式企业网站</h3>
+                        <p>一个使用HTML5和CSS3构建的现代化企业网站，完全响应式设计。</p>
+                        <a href="#" class="btn btn-small">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project2/600/400.jpg" alt="项目2">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>在线作品集</h3>
+                        <p>一个简洁优雅的作品集网站，展示个人作品和技能。</p>
+                        <a href="#" class="btn btn-small">查看详情</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://picsum.photos/seed/project3/600/400.jpg" alt="项目3">
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>电商网站界面</h3>
+                        <p>一个功能齐全的电商网站前端界面，包含商品展示和购物车功能。</p>
+                        <a href="#" class="btn btn-small">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系部分 -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">联系我</h2>
+                <p class="section-subtitle">有任何问题或合作意向？请随时联系我</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div class="contact-details">
+                            <h3>电子邮箱</h3>
+                            <p>yourname@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="contact-details">
+                            <h3>位置</h3>
+                            <p>中国，北京</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div class="contact-details">
+                            <h3>网站</h3>
+                            <p>www.yourwebsite.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="你的名字" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="你的邮箱" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="你的留言" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">发送消息</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>我的网站</h3>
+                    <p>一个展示我的作品和技能的个人网站</p>
+                </div>
+                <div class="footer-links">
+                    <h4>快速链接</h4>
+                    <ul>
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="#portfolio">作品集</a></li>
+                        <li><a href="#contact">联系</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>社交媒体</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 我的网站. 保留所有权利. | 由GitHub Pages托管</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
